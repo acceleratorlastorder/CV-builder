@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="CVApp">
+
+<head>
+  <meta charset="utf-8">
+  <title>CV okba</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/angular/angular.js" charset="utf-8"></script>
+</head>
+
+<body ng-controller="CVController">
+  <cv-content>
+    <section class="left panel column">
+      <section ng-repeat="detail in currentUser.userDetails">
+        <p> {{detail}} </p>
+      </section>
+      <section ng-repeat="userAbility in currentUser.moreInformation.userAbilities">
+        <h6 class="title">{{userAbility.title}}</h6>
+        <p>
+          <span ng-repeat="section in userAbility.array">{{section}} {{$last ? "" : ", "}}</span>
+        </p>
+      </section>
+    </section>
+    <section class="right panel column">
+      <section id="summary">
+        <h1 id="UserName">{{currentUser.firstName + " " +  currentUser.lastName}}</h1>
+        <h6 class="title">{{currentUser.moreInformation.summary.title}}</h6>
+        <p>{{currentUser.moreInformation.summary.text}}</p>
+      </section>
+      <section id="{{backgroundExperiences.style.IdName}}" ng-repeat="backgroundExperiences in currentUser.moreInformation.backgroundExperiences">
+        <h6 class="container title">{{backgroundExperiences.title}}</h6>
+        <section class="{{backgroundExperiences.style.classesName}} backgroundExperiences" ng-repeat="experience in backgroundExperiences.array">
+          <h6 class="title">{{experience.date + " " + experience.organizationName}}</h6>
+          <h6 class="title">{{experience.title}}</h6>
+          <p>{{experience.description}}</p>
+        </section>
+      </section>
+
+    </section>
+  </cv-content>
+
+  <script src="./js/app.js" charset="utf-8"></script>
+</body>
+
+</html>

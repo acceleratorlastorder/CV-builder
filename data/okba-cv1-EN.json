@@ -1,0 +1,95 @@
+{
+  "firstName": "Okba",
+  "lastName": "Hamidi",
+  "userDetails": {
+    "address1": "68 BD banon",
+    "address2": "Bâtiment B appartement 508",
+    "mail": "mr.hamidi.okba@gmail.com",
+    "phoneNumber": "07 68 08 40 71"
+  },
+  "moreInformation": {
+    "userAbilities": {
+      "skills": {
+        "title": "Skills",
+        "style": {
+          "IdName": "skills",
+          "classesName": "skill"
+        },
+        "array": [
+          "HTML/CSS",
+          "Javascript (vanilla ES6+, angularJS, JQuery)",
+          "Lua",
+          "C/C++",
+          "NodeJS",
+          "SQL",
+          "C#",
+          "JAVA"
+        ]
+      },
+      "languages": {
+        "title": "Languages",
+        "style": {
+          "IdName": "languages",
+          "classesName": "language"
+        },
+        "array": ["English", "French"]
+      }
+    },
+    "summary": {
+      "title": "Developer",
+      "text": "I am a developer currently using HTML/CSS, Javascript, C#, JAVA but i also do a bit of C/C++, playing sometimes around with unity3D and unrealEngine4 when i have some free time."
+    },
+    "backgroundExperiences": {
+      "workExperiences": {
+        "title": "Work experiences",
+        "style": {
+          "IdName": "experiences",
+          "classesName": "experience"
+        },
+        "array": [
+          {
+            "date": "06/2017",
+            "title": "Développeur",
+            "organizationName": "Calinda Software",
+            "description": "Software and web development, front-end/back-end, HTML, CSS, JS(AngularJS, JQuery), C#(windows application), SQL, JAVA(back-end server)."
+          }, {
+            "date": "02/2017 - 03/2017",
+            "title": "Internship as web developer (front-end)/(back-end) / developer C/C++ arduino",
+            "organizationName": "Urban prod",
+            "description": "Internship as web developer in Javascript(vanilla ES6) and PHP, introducing people to the world of informatics and education programming with Arduino and C/C++."
+          }, {
+            "date": "05/2016 - 09/2016",
+            "title": "MAGASINIER",
+            "organizationName": "BHM DISTRIBUTION",
+            "description": "Gestion des stocks, magasinage: déchargement des palette,utilisation du transpalette manuel/électrique, aide client."
+          }, {
+            "date": "12/2011 - 01/2012",
+            "title": "MAINTENANCE EN INFORMATIQUE MÉDICALE",
+            "organizationName": "AMFI",
+            "description": "Stage dans la maintenance des équipement informatique des clients médecins et installation des logiciels de gestion médicale (axilog). "
+          }, {
+            "date": "04/2009 - 05/2009",
+            "title": "MAINTENANCE EN INFORMATIQUE",
+            "organizationName": "Cyber Kartié",
+            "description": "Stage dans un cybercafé, maintenance des ordinateurs, réparation et montage de nouveaux ordinateurs pour les revendre par la suite."
+          }
+        ]
+      },
+      "formations": {
+        "title": "formations",
+        "style": {
+          "IdName": "formations",
+          "classesName": "formation"
+        },
+        "array": [
+          {
+            "date": "2016",
+            "title": "SIMPLONMARS",
+            "organizationName": "SIMPLONMARS",
+            "description": "Formation intensive à centrale Marseille sur les langages de programmation web (front et back-end), médiation numérique, méthodes agiles."
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+cv-content, .panel, body {
+  display: flex;
+}
+
+/*****FOR TEST REMOVE AFTER*****/
+
+cv-content, .panel {
+  border: 1px solid black;
+}
+
+/*****FOR TEST REMOVE AFTER*****/
+
+body {
+  justify-content: space-around;
+}
+
+cv-content {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 595px;
+  height: 842px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 10px;
+}
+
+.left.panel {
+  flex-grow: 1;
+  margin-right: 15px;
+}
+
+.right.panel {
+  flex-grow: 2;
+}
+
+.backgroundExperiences .title {
+  text-decoration: underline;
+}
+
+.container.title {
+  margin-top: 4px;
+}
+
+.backgroundExperiences {
+  margin-top: 10px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+#experiences .title::after, #formations .title::after {
+  content: ":";
+}
+
+#summary, #experiences, #formations {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid black;
+}
