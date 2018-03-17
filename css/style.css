@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
@@ -31,6 +31,7 @@ h1 {
 
 p {
   font-size: 10px;
+  margin: 4px 0 4px 0;
 }
 
 .left.panel {
@@ -54,8 +55,8 @@ p {
   margin-top: 10px;
 }
 
-.column{
-    flex-direction: column;
+.column {
+  flex-direction: column;
 }
 
 #experiences .title::after, #formations .title::after {

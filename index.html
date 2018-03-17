@@ -11,7 +11,8 @@
 <body ng-controller="CVController">
   <cv-content>
     <section class="left panel column">
-      <section ng-repeat="detail in currentUser.userDetails">
+      <section ng-repeat="(key, detail) in currentUser.userDetails" ng-if="currentUser.rules.show[key]">
+        <h6 class="title">{{currentUser.dictionary[key]}}</h6>
         <p> {{detail}} </p>
       </section>
       <section ng-repeat="userAbility in currentUser.moreInformation.userAbilities">

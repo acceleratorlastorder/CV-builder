@@ -1,9 +1,26 @@
 {
   "firstName": "Okba",
   "lastName": "Hamidi",
+  "dictionary": {
+    "address1": "address",
+    "address2": "address2",
+    "fullAddress": "address",
+    "mail": "mail",
+    "phoneNumber": "phone number"
+  },
+  "rules": {
+    "show": {
+      "address1": false,
+      "address2": false,
+      "fullAddress": true,
+      "mail": true,
+      "phoneNumber": true
+    }
+  },
   "userDetails": {
     "address1": "68 BD banon",
     "address2": "Bâtiment B appartement 508",
+    "fullAddress": "68 BD banon Bâtiment B appartement 508",
     "mail": "mr.hamidi.okba@gmail.com",
     "phoneNumber": "07 68 08 40 71"
   },
@@ -41,54 +58,50 @@
     },
     "backgroundExperiences": {
       "workExperiences": {
-        "title": "Work experiences",
+        "title": "Work History",
         "style": {
           "IdName": "experiences",
           "classesName": "experience"
         },
-        "array": [
-          {
-            "date": "06/2017",
-            "title": "Développeur",
-            "organizationName": "Calinda Software",
-            "description": "Software and web development, front-end/back-end, HTML, CSS, JS(AngularJS, JQuery), C#(windows application), SQL, JAVA(back-end server)."
-          }, {
-            "date": "02/2017 - 03/2017",
-            "title": "Internship as web developer (front-end)/(back-end) / developer C/C++ arduino",
-            "organizationName": "Urban prod",
-            "description": "Internship as web developer in Javascript(vanilla ES6) and PHP, introducing people to the world of informatics and education programming with Arduino and C/C++."
-          }, {
-            "date": "05/2016 - 09/2016",
-            "title": "MAGASINIER",
-            "organizationName": "BHM DISTRIBUTION",
-            "description": "Gestion des stocks, magasinage: déchargement des palette,utilisation du transpalette manuel/électrique, aide client."
-          }, {
-            "date": "12/2011 - 01/2012",
-            "title": "MAINTENANCE EN INFORMATIQUE MÉDICALE",
-            "organizationName": "AMFI",
-            "description": "Stage dans la maintenance des équipement informatique des clients médecins et installation des logiciels de gestion médicale (axilog). "
-          }, {
-            "date": "04/2009 - 05/2009",
-            "title": "MAINTENANCE EN INFORMATIQUE",
-            "organizationName": "Cyber Kartié",
-            "description": "Stage dans un cybercafé, maintenance des ordinateurs, réparation et montage de nouveaux ordinateurs pour les revendre par la suite."
-          }
-        ]
+        "array": [{
+          "date": "06/2017",
+          "title": "Developer",
+          "organizationName": "Calinda Software",
+          "description": "Software and web development, front-end/back-end, HTML, CSS, JS(AngularJS, JQuery), C#(windows application), SQL, JAVA(back-end server)."
+        }, {
+          "date": "02/2017 - 03/2017",
+          "title": "Internship as web developer (front-end)/(back-end) / developer C/C++ arduino",
+          "organizationName": "Urban prod",
+          "description": "Internship as web developer in Javascript(vanilla ES6) and PHP, introducing people to the world of informatics and education programming with Arduino and C/C++."
+        }, {
+          "date": "05/2016 - 09/2016",
+          "title": "Sales Assistant/Warehouse Oprative",
+          "organizationName": "BHM DISTRIBUTION",
+          "description": "Inventory management, warehousing: pallet unloading, use of manual / electric pallet truck, customer support."
+        }, {
+          "date": "12/2011 - 01/2012",
+          "title": "Maintenance of Medical Computers",
+          "organizationName": "AMFI",
+          "description": "Internship in the maintenance of computer equipment for medical clients and installation of medical management software (axilog). "
+        }, {
+          "date": "04/2009 - 05/2009",
+          "title": "Maintenance of Computers/Repair and Assembly of Computers",
+          "organizationName": "Cyber Kartié",
+          "description": "Internship in a cybercafé, maintenance of computers, repair and assembly of new computers to sell them later."
+        }]
       },
       "formations": {
-        "title": "formations",
+        "title": "Education",
         "style": {
           "IdName": "formations",
           "classesName": "formation"
         },
-        "array": [
-          {
-            "date": "2016",
-            "title": "SIMPLONMARS",
-            "organizationName": "SIMPLONMARS",
-            "description": "Formation intensive à centrale Marseille sur les langages de programmation web (front et back-end), médiation numérique, méthodes agiles."
-          }
-        ]
+        "array": [{
+          "date": "2016",
+          "title": "Computer Programming Trainning Course",
+          "organizationName": "SIMPLONMARS",
+          "description": "Intensive training in central Marseille on web programming languages ​​(front and back-end), digital mediation with people with little or no computer skills , agile methods."
+        }]
       }
     }
   }
