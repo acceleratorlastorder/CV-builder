@@ -6,15 +6,20 @@
     "address2": "address2",
     "fullAddress": "address",
     "mail": "mail",
-    "phoneNumber": "phone number"
+    "phoneNumber": "phone number",
+    "github": "Github"
+  },
+  "icons": {
+
   },
   "rules": {
-    "show": {
+    "showItem": {
       "address1": false,
       "address2": false,
       "fullAddress": true,
       "mail": true,
-      "phoneNumber": true
+      "phoneNumber": true,
+      "github": true
     }
   },
   "userDetails": {
@@ -22,7 +27,8 @@
     "address2": "Bâtiment B appartement 508",
     "fullAddress": "68 BD banon Bâtiment B appartement 508",
     "mail": "mr.hamidi.okba@gmail.com",
-    "phoneNumber": "07 68 08 40 71"
+    "phoneNumber": "07 68 08 40 71",
+    "github": "https://github.com/acceleratorlastorder"
   },
   "moreInformation": {
     "userAbilities": {
@@ -50,6 +56,19 @@
           "classesName": "language"
         },
         "array": ["English", "French"]
+      },
+      "Hobbies": {
+        "title": "Hobbies",
+        "style": {
+          "IdName": "hobbies",
+          "classesName": "hobbie"
+        },
+        "array": [
+          "Video games",
+          "embedded system(arduino, STM32 nucléo)",
+          "Aeronautics",
+          "3D (openGL C/C++, unity 3D, unreal Engine 4, blender)"
+        ]
       }
     },
     "summary": {

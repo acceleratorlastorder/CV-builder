@@ -8,15 +8,17 @@
   <script src="./js/angular/angular.js" charset="utf-8"></script>
 </head>
 
-<body ng-controller="CVController">
+<body ng-controller="CVController" ng-cloak>
   <cv-content>
     <section class="left panel column">
-      <section ng-repeat="(key, detail) in currentUser.userDetails" ng-if="currentUser.rules.show[key]">
-        <h6 class="title">{{currentUser.dictionary[key]}}</h6>
-        <p> {{detail}} </p>
+      <section id="userDetails">
+        <section class="userDetail" ng-repeat="(key, detail) in currentUser.userDetails" ng-if="currentUser.rules.showItem[key]">
+          <h6 class="title orange">{{currentUser.dictionary[key]}}</h6>
+          <p>{{detail}}</p>
+        </section>
       </section>
-      <section ng-repeat="userAbility in currentUser.moreInformation.userAbilities">
-        <h6 class="title">{{userAbility.title}}</h6>
+      <section class="userOtherInfos" ng-repeat="userAbility in currentUser.moreInformation.userAbilities">
+        <h4 class="title orange">{{userAbility.title}}</h4>
         <p>
           <span ng-repeat="section in userAbility.array">{{section}} {{$last ? "" : ", "}}</span>
         </p>
@@ -24,22 +26,20 @@
     </section>
     <section class="right panel column">
       <section id="summary">
-        <h1 id="UserName">{{currentUser.firstName + " " +  currentUser.lastName}}</h1>
-        <h6 class="title">{{currentUser.moreInformation.summary.title}}</h6>
+        <p id="UserName" class="orange">{{currentUser.firstName + " " +  currentUser.lastName}}</p>
+        <h4 class="title orange">{{currentUser.moreInformation.summary.title}}</h4>
         <p>{{currentUser.moreInformation.summary.text}}</p>
       </section>
-      <section id="{{backgroundExperiences.style.IdName}}" ng-repeat="backgroundExperiences in currentUser.moreInformation.backgroundExperiences">
-        <h6 class="container title">{{backgroundExperiences.title}}</h6>
-        <section class="{{backgroundExperiences.style.classesName}} backgroundExperiences" ng-repeat="experience in backgroundExperiences.array">
-          <h6 class="title">{{experience.date + " " + experience.organizationName}}</h6>
-          <h6 class="title">{{experience.title}}</h6>
+      <section id="{{backgroundExperiences.style.IdName}}" class="backgroundExperiences" ng-repeat="backgroundExperiences in currentUser.moreInformation.backgroundExperiences">
+        <h4 class="container title orange">{{backgroundExperiences.title}}</h4>
+        <section class="{{backgroundExperiences.style.classesName}} backgroundExperience" ng-repeat="experience in backgroundExperiences.array">
+          <h5 class="title">{{experience.date + " " + experience.organizationName}}</h5>
+          <h5 class="title">{{experience.title}}</h5>
           <p>{{experience.description}}</p>
         </section>
       </section>
-
     </section>
   </cv-content>
-
   <script src="./js/app.js" charset="utf-8"></script>
 </body>
 

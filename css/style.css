@@ -6,7 +6,7 @@ cv-content, .panel, body {
   display: flex;
 }
 
-/*****FOR TEST REMOVE AFTER*****/
+/*****FOR TEST REMOVE AFTER****
 
 cv-content, .panel {
   border: 1px solid black;
@@ -16,6 +16,12 @@ cv-content, .panel {
 
 body {
   justify-content: space-around;
+}
+
+#UserName {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 auto 15px;
 }
 
 cv-content {
@@ -30,20 +36,49 @@ h1 {
 }
 
 p {
-  font-size: 10px;
+  font-size: 12px;
   margin: 4px 0 4px 0;
 }
 
 .left.panel {
   flex-grow: 1;
   margin-right: 15px;
+  color: white;
+  background-color: black;
+  max-width: 34%;
 }
 
 .right.panel {
   flex-grow: 2;
 }
 
-.backgroundExperiences .title {
+.userOtherInfos .title {
+  text-align: center;
+}
+
+.userDetail {
+  margin-left: 10px;
+}
+
+.userDetail:first-child {
+  margin-top: 15px;
+}
+
+.userOtherInfos p {
+  text-align: center;
+  max-width: 70%;
+  margin: auto;
+}
+
+.userOtherInfos {
+  margin-top: 70px;
+}
+
+.orange {
+  color: orange;
+}
+
+.backgroundExperience .title {
   text-decoration: underline;
 }
 
@@ -51,15 +86,28 @@ p {
   margin-top: 4px;
 }
 
-.backgroundExperiences {
+.backgroundExperience {
   margin-top: 10px;
 }
+
+#summary, .backgroundExperiences {
+  padding: 15px 0 15px 0;
+}
+
+/*
+.backgroundExperiences {
+  padding: 15px 0 15px 0;
+}*/
 
 .column {
   flex-direction: column;
 }
 
-#experiences .title::after, #formations .title::after {
+.row {
+  flex-direction: row;
+}
+
+#experiences .title::after, #formations .title::after, .left.panel .title::after {
   content: ":";
 }
 
