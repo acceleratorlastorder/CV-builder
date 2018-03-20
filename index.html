@@ -4,13 +4,14 @@
 <head>
   <meta charset="utf-8">
   <title>CV okba</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="./js/angular/angular-material/angular-material.css">
   <link rel="stylesheet" href="./css/style.css">
-  <script src="./js/angular/angular.js" charset="utf-8"></script>
 </head>
 
 <body ng-controller="CVController" ng-cloak>
-  <cv-content>
-    <section class="left panel column">
+  <cv-content layout="row">
+    <section class="left panel" layout="column">
       <section id="userDetails">
         <section class="userDetail" ng-repeat="(key, detail) in currentUser.userDetails" ng-if="currentUser.rules.showItem[key]">
           <h6 class="title orange">{{currentUser.dictionary[key]}}</h6>
@@ -24,9 +25,9 @@
         </p>
       </section>
     </section>
-    <section class="right panel column">
+    <section class="right panel" layout="column">
       <section id="summary">
-        <p id="UserName" class="orange">{{currentUser.firstName + " " +  currentUser.lastName}}</p>
+        <p id="UserName" class="orange">{{currentUser.firstName + " " + currentUser.lastName}}</p>
         <h4 class="title orange">{{currentUser.moreInformation.summary.title}}</h4>
         <p>{{currentUser.moreInformation.summary.text}}</p>
       </section>
@@ -40,6 +41,12 @@
       </section>
     </section>
   </cv-content>
+  <script src="./js/angular/angular.min.js" charset="utf-8"></script>
+  <script src="./js/angular/angular.js"></script>
+  <script src="./js/angular/angular-aria.js"></script>
+  <script src="./js/angular/angular-animate.js"></script>
+  <script src="./js/angular/angular-messages.js"></script>
+  <script src="./js/angular/angular-material/angular-material.js"></script>
   <script src="./js/app.js" charset="utf-8"></script>
 </body>
 

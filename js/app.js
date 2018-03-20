@@ -1,4 +1,4 @@
-var CVApp = angular.module('CVApp', []);
+var CVApp = angular.module('CVApp', ['ngMaterial']);
 
 CVApp.controller('CVController', function CVController($scope, $http)
 {
