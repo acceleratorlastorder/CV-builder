@@ -2,9 +2,6 @@ var CVApp = angular.module('CVApp', []);
 
 CVApp.controller('CVController', function CVController($scope, $http)
 {
-  //use it later
-  //
-
   $http(
   {
     method: 'GET',
