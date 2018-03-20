@@ -2,13 +2,14 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
+/* might not be used anymore (remove it if confirmed)
 cv-content, .panel, body {
- display: -webkit-box; 
+ display: -webkit-box;
  display: -moz-box;
  display: -ms-flexbox;
- display: -webkit-flex; 
+ display: -webkit-flex;
  display: flex;
-}
+}*/
 
 /*****FOR TEST REMOVE AFTER****
 
