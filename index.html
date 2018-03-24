@@ -15,7 +15,7 @@
       <section class="left panel" layout="column">
         <section id="userDetails">
           <section class="userDetail" ng-repeat="(key, detail) in currentUser.userDetails" ng-if="currentUser.rules.showItem[key]">
-            <h6 class="title orange">{{currentUser.dictionary[key]}}</h6>
+            <h6 class="title orange" ng-if="currentUser.dictionary[key]">{{currentUser.dictionary[key]}}</h6>
             <p>{{detail}}</p>
           </section>
         </section>
