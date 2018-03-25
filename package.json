@@ -1,0 +1,26 @@
+{
+  "name": "cv-builder",
+  "version": "0.0.1",
+  "description": "Creating a CV from JSON data",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acceleratorlastorder/CV-builder.git"
+  },
+  "keywords": [
+    "CV",
+    "Template"
+  ],
+  "author": "Accelerator Lastorder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acceleratorlastorder/CV-builder/issues"
+  },
+  "homepage": "https://github.com/acceleratorlastorder/CV-builder#readme",
+  "dependencies": {
+    "jspdf": "^1.3.5"
+  }
+}
