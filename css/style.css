@@ -2,15 +2,6 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
-/* might not be used anymore (remove it if confirmed)
-cv-content, .panel, body {
- display: -webkit-box;
- display: -moz-box;
- display: -ms-flexbox;
- display: -webkit-flex;
- display: flex;
-}*/
-
 /*****FOR TEST REMOVE AFTER****
 
 cv-content, .panel {
@@ -21,6 +12,7 @@ cv-content, .panel {
 
 body {
   justify-content: space-around;
+  background-color: white;
 }
 
 #UserName {
@@ -34,6 +26,7 @@ cv-content {
   justify-content: space-between;
   width: 595px;
   height: 842px;
+  background-color: white;
 }
 
 h1 {
@@ -56,6 +49,7 @@ p {
 
 .right.panel {
   flex-grow: 2;
+  background-color: white;
 }
 
 .userOtherInfos .title {
