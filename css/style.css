@@ -33,7 +33,7 @@ h1 {
   text-align: center;
 }
 
-p {
+p, a {
   font-size: 12px;
   margin: 4px 0 4px 0;
   font-family: serif !important;

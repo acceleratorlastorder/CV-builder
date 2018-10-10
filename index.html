@@ -16,7 +16,8 @@
         <section id="userDetails">
           <section class="userDetail" ng-repeat="(key, detail) in currentUser.userDetails" ng-if="currentUser.rules.showItem[key]">
             <h6 class="title orange" ng-if="currentUser.dictionary[key]">{{currentUser.dictionary[key]}}</h6>
-            <p>{{detail}}</p>
+            <p ng-if="detail.substring(0, 4) !== 'http'">{{detail}}</p>
+            <a ng-if="detail.substring(0, 4) === 'http'" ng-href="{{detail}}">{{detail}}</a>
           </section>
         </section>
         <section class="userOtherInfos" ng-repeat="userAbility in currentUser.moreInformation.userAbilities">
