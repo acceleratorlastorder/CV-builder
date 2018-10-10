@@ -10,7 +10,6 @@
 </head>
 
 <body ng-controller="CVController" layout="row">
-  <pdfRender>
     <cv-content layout="row">
       <section class="left panel" layout="column">
         <section id="userDetails">
@@ -42,6 +41,8 @@
         </section>
       </section>
     </cv-content>
+    <pdfRender>
+    </pdfRender>
     <script src="./js/angular/angular.min.js" charset="utf-8"></script>
     <script src="./js/angular/angular.js"></script>
     <script src="./js/angular/angular-aria.js"></script>

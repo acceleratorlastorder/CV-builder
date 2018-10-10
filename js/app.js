@@ -29,7 +29,8 @@ CVApp.controller('CVController', function($scope, $http) {
       // this callback will be called asynchronously
       // when the response is available
       setTimeout(function() {
-        CreatePdfFromHTML(document.getElementsByTagName('cv-content')[0]);
+        //CreatePdfFromHTML(document.getElementsByTagName('cv-content')[0]);
+        generate();
       }, 1500);
     }, function errorCallback(response) {
       console.error("error response : ", response);
@@ -39,7 +40,7 @@ CVApp.controller('CVController', function($scope, $http) {
   }
 
   function CreatePdfFromHTML(htmlContainer) {
-    var HtmlElementDoundary = htmlContainer.getBoundingClientRect();
+  /*  var HtmlElementDoundary = htmlContainer.getBoundingClientRect();
     console.error("htmlContainer: ", htmlContainer);
     console.error("HtmlElementDoundary: ", HtmlElementDoundary);
 
@@ -58,7 +59,9 @@ CVApp.controller('CVController', function($scope, $http) {
             //document.body.appendChild(div);
          }
      });
+*/
   }
+
 
   this.initData();
 });
