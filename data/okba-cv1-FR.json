@@ -1,7 +1,84 @@
 {
   "firstName": "Okba",
   "lastName": "Hamidi",
+  "dictionary": {
+    "address1": "adresse",
+    "address2": "adresse2",
+    "fullAddress": "adresse",
+    "city": null,
+    "zip": null,
+    "country": null,
+    "mail": "E-mail",
+    "phoneNumber": "Télephone",
+    "github": "Github"
+  },
+  "icons": {},
+  "rules": {
+    "showItem": {
+      "address1": false,
+      "address2": false,
+      "fullAddress": true,
+      "city": true,
+      "zip": true,
+      "country": true,
+      "mail": true,
+      "phoneNumber": true,
+      "github": true
+    }
+  },
+  "userDetails": {
+    "address1": "68 BD banon",
+    "address2": "Bâtiment B appartement 508",
+    "fullAddress": "68 BD banon Bâtiment B appartement 508",
+    "city": "Marseille",
+    "zip": "13004",
+    "country": "France",
+    "mail": "mr.hamidi.okba@gmail.com",
+    "phoneNumber": "+33 7 68 08 40 71",
+    "github": "https://github.com/acceleratorlastorder"
+  },
   "moreInformation": {
+    "userAbilities": {
+      "skills": {
+        "title": "Skills",
+        "style": {
+          "IdName": "skills",
+          "classesName": "skill"
+        },
+        "array": [
+          "HTML/CSS",
+          "Javascript (Canilla ES6+, AngularJS)",
+          "TypeScript (Angular 6+)",
+          "Lua",
+          "C/C++",
+          "NodeJS",
+          "SQL",
+          "C#",
+          "JAVA"
+        ]
+      },
+      "languages": {
+        "title": "Languages",
+        "style": {
+          "IdName": "languages",
+          "classesName": "language"
+        },
+        "array": ["Anglais", "Français"]
+      },
+      "Hobbies": {
+        "title": "Hobbies",
+        "style": {
+          "IdName": "hobbies",
+          "classesName": "hobbie"
+        },
+        "array": [
+          "Jeux vidéo",
+          "Informatique embarqué(arduino, STM32 nucléo)",
+          "Aeronautiques",
+          "3D (openGL C/C++, unity 3D, unreal Engine 4, blender)"
+        ]
+      }
+    },
     "summary": {
       "title": "Développeur",
       "text": "Développeur front et back end dans le développement web et développement logiciel, je suis actuellement à la recherche d'un emploi dans le domaine informatique afin de m'épanouir professionnellement et de prouver mes compétences au sein d'une équipe. "
@@ -19,22 +96,26 @@
             "title": "Développeur",
             "organizationName": "Calinda Software",
             "description": "Développeur (web/applicatif), front-end/back-end, HTML,CSS, JS(AngularJS, JQuery), C#, SQL, JAVA."
-          }, {
+          },
+          {
             "date": "02/2017 - 03/2017",
             "title": "STAGE DÉVELOPPEUR WEB (BACK-END) / DÉVELOPPEUR C/C++ ARDUINO",
             "organizationName": "Urban prod",
             "description": "Stage dans le développement de site web principalement sous wordpress. Fusion de plusieurs site, intégration de carte Open street map, création du modèle relationnel pour la nouvelle base de donnée mysql, tests sous Arduino, médiation numérique."
-          }, {
+          },
+          {
             "date": "05/2016 - 09/2016",
             "title": "MAGASINIER",
             "organizationName": "BHM DISTRIBUTION",
             "description": "Gestion des stocks, magasinage: déchargement des palette,utilisation du transpalette manuel/électrique, aide client."
-          }, {
+          },
+          {
             "date": "12/2011 - 01/2012",
             "title": "MAINTENANCE EN INFORMATIQUE MÉDICALE",
             "organizationName": "AMFI",
             "description": "Stage dans la maintenance des équipement informatique des clients médecins et installation des logiciels de gestion médicale (axilog). "
-          }, {
+          },
+          {
             "date": "04/2009 - 05/2009",
             "title": "MAINTENANCE EN INFORMATIQUE",
             "organizationName": "Cyber Kartié",
