@@ -2,17 +2,19 @@
   "firstName": "Okba",
   "lastName": "Hamidi",
   "dictionary": {
-    "address1": "adresse",
-    "address2": "adresse2",
-    "fullAddress": "adresse",
+    "address1": "Address",
+    "address2": "Address2",
+    "fullAddress": "Address",
     "city": null,
     "zip": null,
     "country": null,
     "mail": "E-mail",
-    "phoneNumber": "Télephone",
+    "phoneNumber": "Phone number",
     "github": "Github"
   },
-  "icons": {},
+  "icons": {
+
+  },
   "rules": {
     "showItem": {
       "address1": false,
@@ -27,9 +29,9 @@
     }
   },
   "userDetails": {
-    "address1": "68 BD banon",
-    "address2": "Bâtiment B appartement 508",
-    "fullAddress": "68 BD banon Bâtiment B appartement 508",
+    "address1": "71 Avenue des chartreux",
+    "address2": "",
+    "fullAddress": "71 Avenue des chartreux",
     "city": "Marseille",
     "zip": "13004",
     "country": "France",
@@ -46,15 +48,15 @@
           "classesName": "skill"
         },
         "array": [
-          "HTML/CSS",
-          "Javascript (Canilla ES6+, AngularJS)",
-          "TypeScript (Angular 6+)",
+          "HTML5",
+          "Javascript (Vanilla ES6+, AngularJS)",
+          "TypeScript (Angular 12)",
+          "NodeJS (expressjs, axios, swagger)",
           "Lua",
-          "C/C++",
-          "NodeJS",
-          "SQL",
+          "C/C++",          
+          "SQL (PostgreSQL)",
           "C#",
-          "JAVA"
+          "JAVA (vanilla, Spring)"
         ]
       },
       "languages": {
@@ -81,7 +83,7 @@
     },
     "summary": {
       "title": "Développeur",
-      "text": "Développeur front et back end dans le développement web et développement logiciel, je suis actuellement à la recherche d'un emploi dans le domaine informatique afin de m'épanouir professionnellement et de prouver mes compétences au sein d'une équipe. "
+      "text": "Développeur fullstack et API/SDK dans le développement web et développement logiciel, je suis actuellement à la recherche d'un emploi dans le domaine informatique afin de m'épanouir professionnellement et de prouver mes compétences au sein d'une équipe. "
     },
     "backgroundExperiences": {
       "workExperiences": {
