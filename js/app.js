@@ -23,7 +23,7 @@ CVApp.controller("CVController", function($scope, $http) {
 
   this.getJson = function() {
     if (this.currentLang) {
-      var url = "./data/okba-cv1-" + this.currentLang + ".json";
+      var url = "./data/okba-cv1-" + this.currentLang.toUpperCase() + ".json";
       $http({
         method: "GET",
         url: url,
