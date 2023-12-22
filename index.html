@@ -14,7 +14,8 @@
     <cv-content layout="row">
       <section class="left panel" layout="column">
         <section id="userDetails">
-          <section class="userDetail" ng-repeat="(key, detail) in currentUser.userDetails" ng-if="currentUser.rules.showItem[key]">
+          <section class="userDetail" ng-repeat="(key, detail) in currentUser.userDetails"
+            ng-if="currentUser.rules.showItem[key]">
             <h6 class="title orange" ng-if="currentUser.dictionary[key]">{{currentUser.dictionary[key]}}</h6>
             <p ng-if="detail.substring(0, 4) !== 'http'">{{detail}}</p>
             <a ng-if="detail.substring(0, 4) === 'http'" ng-href="{{detail}}">{{detail}}</a>
@@ -33,12 +34,20 @@
           <h4 class="title orange">{{currentUser.moreInformation.summary.title}}</h4>
           <p>{{currentUser.moreInformation.summary.text}}</p>
         </section>
-        <section id="{{backgroundExperiences.style.IdName}}" class="backgroundExperiences" ng-repeat="backgroundExperiences in currentUser.moreInformation.backgroundExperiences">
+        <section id="{{backgroundExperiences.style.IdName}}" class="backgroundExperiences"
+          ng-repeat="backgroundExperiences in currentUser.moreInformation.backgroundExperiences">
           <h4 class="container title orange">{{backgroundExperiences.title}}</h4>
-          <section class="{{backgroundExperiences.style.classesName}} backgroundExperience" ng-repeat="experience in backgroundExperiences.array">
+          <section class="{{backgroundExperiences.style.classesName}} backgroundExperience"
+            ng-repeat="experience in backgroundExperiences.array">
             <h5 class="title">{{experience.date + " " + experience.organizationName}}</h5>
             <h5 class="title">{{experience.title}}</h5>
-            <p>{{experience.description}}</p>
+            <p ng-if="experience.description.type === 'text'">{{experience.description.value}}</p>
+            <section ng-if="experience.description.type === 'array'">
+              <section ng-repeat="item in experience.description.value track by $index" class="array description">
+                <p ng-if="item.length > 0">{{ item }}</p>
+                <br ng-if="item.length === 0" class="emptyline">
+              </section>
+            </section>
           </section>
         </section>
       </section>

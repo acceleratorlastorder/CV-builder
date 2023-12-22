@@ -95,7 +95,15 @@ p, a {
 }
 
 #summary, .backgroundExperiences {
-  padding: 15px 0 15px 0;
+  padding: 5px 0 5px 0;
+}
+
+.backgroundExperience .title {
+  font-size: 10px;
+}
+
+.backgroundExperience p {
+  font-size: 10px;
 }
 
 /*
@@ -119,4 +127,8 @@ p, a {
   display: flex;
   flex-direction: column;
   border-top: 2px solid black;
+}
+
+section.array.description:has(br.emptyline) {
+  margin: -13px 0 -5px;
 }

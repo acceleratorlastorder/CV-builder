@@ -12,9 +12,7 @@
     "phoneNumber": "Phone number",
     "github": "Github"
   },
-  "icons": {
-
-  },
+  "icons": {},
   "rules": {
     "showItem": {
       "address1": false,
@@ -53,7 +51,7 @@
           "TypeScript (Angular 12)",
           "NodeJS (expressjs, axios, swagger)",
           "Lua",
-          "C/C++",          
+          "C/C++",
           "SQL (PostgreSQL)",
           "C#",
           "JAVA (vanilla, Spring)"
@@ -65,7 +63,10 @@
           "IdName": "languages",
           "classesName": "language"
         },
-        "array": ["English", "French"]
+        "array": [
+          "English",
+          "French"
+        ]
       },
       "Hobbies": {
         "title": "Hobbies",
@@ -92,45 +93,53 @@
           "IdName": "experiences",
           "classesName": "experience"
         },
-        "array": [{
-          "date": "06/2017",
-          "title": "Developer",
-          "organizationName": "Calinda Software",
-          "description": "Software and web development, front-end/back-end, NodeJS (API, Axios, Swagger, ExpressJS), HTML5, C#(windows application), SQL, JAVA(back-end server)."
-        }, {
-          "date": "02/2017 - 03/2017",
-          "title": "Internship as web developer (front-end)/(back-end) / developer C/C++ arduino",
-          "organizationName": "Urban prod",
-          "description": "Internship as web developer in Javascript(vanilla ES6) and PHP, introducing people to the world of informatics and education programming with Arduino and C/C++."
-        }, {
-          "date": "05/2016 - 09/2016",
-          "title": "Sales Assistant/Warehouse Operative",
-          "organizationName": "BHM DISTRIBUTION",
-          "description": "Inventory management, warehousing: pallet unloading, use of manual / electric pallet truck, customer support."
-        }, {
-          "date": "12/2011 - 01/2012",
-          "title": "Maintenance of Medical Computers",
-          "organizationName": "AMFI",
-          "description": "Internship in the maintenance of computer equipment for medical clients and installation of medical management software (axilog). "
-        }, {
-          "date": "04/2009 - 05/2009",
-          "title": "Maintenance of Computers/Repair and Assembly of Computers",
-          "organizationName": "Cyber Kartié",
-          "description": "Internship in a cybercafé, maintenance of computers, repair and assembly of new computers to sell them later."
-        }]
-      },
-      "formations": {
-        "title": "Education",
-        "style": {
-          "IdName": "formations",
-          "classesName": "formation"
-        },
-        "array": [{
-          "date": "2016",
-          "title": "Computer Programming Trainning Course",
-          "organizationName": "SIMPLONMARS",
-          "description": "Intensive training in central Marseille on web programming languages ​​(front and back-end), digital mediation with people with little or no computer skills , agile methods."
-        }]
+        "array": [
+          {
+            "date": "06/2017",
+            "title": "Developer",
+            "organizationName": "Calinda Software",
+            "description": {
+              "type": "text",
+              "value": "Software and web development, front-end/back-end, NodeJS (API, Axios, Swagger, ExpressJS), HTML5, C#(windows application), SQL, JAVA(back-end server)."
+            }
+          },
+          {
+            "date": "02/2017 - 03/2017",
+            "title": "Internship as web developer (front-end)/(back-end) / developer C/C++ arduino",
+            "organizationName": "Urban prod",
+            "description": {
+              "type": "text",
+              "value": "Internship as web developer in Javascript(vanilla ES6) and PHP, introducing people to the world of informatics and education programming with Arduino and C/C++."
+            }
+          },
+          {
+            "date": "05/2016 - 09/2016",
+            "title": "Sales Assistant/Warehouse Operative",
+            "organizationName": "BHM DISTRIBUTION",
+            "description": {
+              "type": "text",
+              "value": "Inventory management, warehousing: pallet unloading, use of manual / electric pallet truck, customer support."
+            }
+          },
+          {
+            "date": "12/2011 - 01/2012",
+            "title": "Maintenance of Medical Computers",
+            "organizationName": "AMFI",
+            "description": {
+              "type": "text",
+              "value": "Internship in the maintenance of computer equipment for medical clients and installation of medical management software (axilog)."
+            }
+          },
+          {
+            "date": "04/2009 - 05/2009",
+            "title": "Maintenance of Computers/Repair and Assembly of Computers",
+            "organizationName": "Cyber Kartié",
+            "description": {
+              "type": "text",
+              "value": "Internship in a cybercafé, maintenance of computers, repair and assembly of new computers to sell them later."
+            }
+          }
+        ]
       }
     }
   }

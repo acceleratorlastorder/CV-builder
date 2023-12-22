@@ -12,9 +12,7 @@
     "phoneNumber": "Phone number",
     "github": "Github"
   },
-  "icons": {
-
-  },
+  "icons": {},
   "rules": {
     "showItem": {
       "address1": false,
@@ -53,7 +51,7 @@
           "TypeScript (Angular 12)",
           "NodeJS (expressjs, axios, swagger)",
           "Lua",
-          "C/C++",          
+          "C/C++",
           "SQL (PostgreSQL)",
           "C#",
           "JAVA (vanilla, Spring)"
@@ -65,7 +63,10 @@
           "IdName": "languages",
           "classesName": "language"
         },
-        "array": ["Anglais", "Français"]
+        "array": [
+          "Anglais",
+          "Français"
+        ]
       },
       "Hobbies": {
         "title": "Hobbies",
@@ -96,47 +97,66 @@
           {
             "date": "06/2017",
             "title": "Développeur",
-            "organizationName": "Calinda Software",
-            "description": "Développeur (web/applicatif), front-end/back-end, NodeJS(API, Axios, Swagger, ExpressJS), HTML5, C#, SQL, JAVA."
+            "organizationName": "Ooodrive",
+            "description": {
+              "type": "array",
+              "value": [
+                "Au cours de mon aventure, j'ai pu :",
+                "- Concevoir et implémenter des outils métier qui facilitent la création de formulaires, optimisent la mise en forme et l'envoi pour signature électronique.",
+                "- Reprendre et enrichir un projet d'application mobile/desktop en ajoutant de nouvelles fonctionnalités, en corrigeant des bugs, et en assurant son déploiement sur le Microsoft Store.",
+                "- Développer un outil métier pour un service de mutuelle/prévoyance, y compris un moteur de calcul pour les devis et l'intégration d'un système de signature électronique.",
+                "- Assurer le rôle de chef de projet, en guidant les décisions d'intégration, en prenant en charge le cahier des charges et en réalisant les estimations pour les appels d'offres.",
+                "- Former une équipe pour assurer une transition en douceur d'un projet vers les opérations courantes.",
+                "",
+                "Projets marquants:",
+                "Outil Métier de Signature Électronique",
+                "Technologie : Cordova, JS/HTML, C#",
+                "Rôles : Développeur, Gestion du déploiement",
+                "",
+                "Moteur de Calcul pour Mutuelle/Prévoyance",
+                "Technologie : AngularJS, JAVA, NodeJS, SQL",
+                "Rôles : Développeur, Chef de projet",
+                "",
+                "Middleware et API pour Clients ISV",
+                "Technologie : NodeJs, Axios, Bash",
+                "Rôles : Développeur Backend",
+                "",
+                "Gestionnaire de Facturation et API pour Signature Électronique",
+                "Technologie : Docker, Portainer, SQL, JAVA, Spring, Angular, Bash",
+                "Rôles : Développeur Full Stack, Gestion du déploiement",
+                "",
+                "Connecteur d'Archivage Légal et Cloud Storage",
+                "Technologie : JAVA, Spring, JPA, Retrofit",
+                "Rôles : Développeur Backend"
+              ]
+            }
           },
           {
             "date": "02/2017 - 03/2017",
             "title": "STAGE DÉVELOPPEUR WEB (BACK-END) / DÉVELOPPEUR C/C++ ARDUINO",
             "organizationName": "Urban prod",
-            "description": "Stage dans le développement de site web principalement sous wordpress. Fusion de plusieurs site, intégration de carte Open street map, création du modèle relationnel pour la nouvelle base de donnée mysql, tests sous Arduino, médiation numérique."
-          },
-          {
-            "date": "05/2016 - 09/2016",
-            "title": "MAGASINIER",
-            "organizationName": "BHM DISTRIBUTION",
-            "description": "Gestion des stocks, magasinage: déchargement des palette,utilisation du transpalette manuel/électrique, aide client."
+            "description": {
+              "type": "text",
+              "value": "Stage dans le développement de site web principalement sous wordpress. Fusion de plusieurs site, intégration de carte Open street map, création du modèle relationnel pour la nouvelle base de donnée mysql, tests sous Arduino, médiation numérique."
+            }
           },
           {
             "date": "12/2011 - 01/2012",
             "title": "MAINTENANCE EN INFORMATIQUE MÉDICALE",
             "organizationName": "AMFI",
-            "description": "Stage dans la maintenance des équipement informatique des clients médecins et installation des logiciels de gestion médicale (axilog). "
+            "description": {
+              "type": "text",
+              "value": "Stage dans la maintenance des équipement informatique des clients médecins et installation des logiciels de gestion médicale (axilog). "
+            }
           },
           {
             "date": "04/2009 - 05/2009",
             "title": "MAINTENANCE EN INFORMATIQUE",
             "organizationName": "Cyber Kartié",
-            "description": "Stage dans un cybercafé, maintenance des ordinateurs, réparation et montage de nouveaux ordinateurs pour les revendre par la suite."
-          }
-        ]
-      },
-      "formations": {
-        "title": "formations",
-        "style": {
-          "IdName": "formations",
-          "classesName": "formation"
-        },
-        "array": [
-          {
-            "date": "2016",
-            "title": "SIMPLONMARS",
-            "organizationName": "SIMPLONMARS",
-            "description": "Formation intensive à centrale Marseille sur les langages de programmation web (front et back-end), médiation numérique, méthodes agiles."
+            "description": {
+              "type": "text",
+              "value": "Stage dans un cybercafé, maintenance des ordinateurs, réparation et montage de nouveaux ordinateurs pour les revendre par la suite."
+            }
           }
         ]
       }
