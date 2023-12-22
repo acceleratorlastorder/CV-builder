@@ -39,12 +39,16 @@ p, a {
   font-family: serif !important;
 }
 
+a{
+  font-size: 9px;
+}
+
 .left.panel {
   flex-grow: 1;
   margin-right: 15px;
   color: white;
   background-color: black;
-  max-width: 34%;
+  max-width: 27%;
 }
 
 .right.panel {
@@ -103,7 +107,7 @@ p, a {
 }
 
 .backgroundExperience p {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 /*

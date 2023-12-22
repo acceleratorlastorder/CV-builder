@@ -148,15 +148,7 @@
               "type": "text",
               "value": "Stage dans la maintenance des équipement informatique des clients médecins et installation des logiciels de gestion médicale (axilog). "
             }
-          },
-          {
-            "date": "04/2009 - 05/2009",
-            "title": "MAINTENANCE EN INFORMATIQUE",
-            "organizationName": "Cyber Kartié",
-            "description": {
-              "type": "text",
-              "value": "Stage dans un cybercafé, maintenance des ordinateurs, réparation et montage de nouveaux ordinateurs pour les revendre par la suite."
-            }
+          }
           }
         ]
       }
