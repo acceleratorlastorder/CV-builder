@@ -1,6 +1,6 @@
 var CVApp = angular.module("CVApp", ["ngMaterial"]);
 
-CVApp.controller("CVController", function($scope, $http) {
+CVApp.controller("CVController", function ($scope, $http) {
 
   var self = this;
 
@@ -8,20 +8,20 @@ CVApp.controller("CVController", function($scope, $http) {
   this.currentLang = "";
   this.searchParam = {};
 
-  this.initData = function() {
+  this.initData = function () {
     this.searchParam = getSearchQueryParam();
     this.getLang();
     this.getJson();
   }
 
-  this.getLang = function() {
+  this.getLang = function () {
     this.currentLang = this.searchParam["lang"];
     if (!this.currentLang) {
       this.currentLang = this.defaultLang;
     }
   }
 
-  this.getJson = function() {
+  this.getJson = function () {
     if (this.currentLang) {
       var url = "./data/okba-cv1-" + this.currentLang.toUpperCase() + ".json";
       $http({
@@ -77,3 +77,35 @@ CVApp.controller("CVController", function($scope, $http) {
 
   this.initData();
 });
+
+
+
+// add global function to call html-docx-js conversion and download
+
+// Function to convert HTML to DOCX
+function convertToDocx() {
+  var content = document.getElementById('cv-container').innerHTML;
+  var converted = htmlDocx.asBlob(content);
+
+  // Trigger download
+  saveAs(converted, 'convertedDocument.docx');
+}
+
+function downloadCV() {
+  // First, include the html-docx-js library in your project
+
+
+
+  /*
+  var html = document.getElementById("cv-container").innerHTML;
+  var fileName = "okba-cv.docx";
+  var fileType = "application/vnd.openxmlformats-officedocument.wordprocessingml.document";
+  var a = document.createElement("a");
+  var data = new Blob([html], {
+    type: fileType
+  });
+  a.href = URL.createObjectURL(data);
+  a.download = fileName;
+  a.click();
+  */
+}
