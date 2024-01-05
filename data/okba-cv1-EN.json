@@ -97,10 +97,38 @@
           {
             "date": "06/2017",
             "title": "Developer",
-            "organizationName": "Calinda Software",
+            "organizationName": "Oodrive",
             "description": {
-              "type": "text",
-              "value": "Software and web development, front-end/back-end, NodeJS (API, Axios, Swagger, ExpressJS), HTML5, C#(windows application), SQL, JAVA(back-end server)."
+              "type": "array",
+              "value": [
+                "During my journey, I have been able to:",
+                "- Design and implement business tools that facilitate the creation of forms, optimize formatting, and manage electronic signature dispatch.",
+                "- Take over and enhance a mobile/desktop application project by adding new features, correcting bugs, and ensuring its deployment on the Microsoft Store.",
+                "- Develop a business tool for a mutual insurance/providence service, including a calculation engine for quotes and the integration of an electronic signature system.",
+                "- Serve as a project manager, guiding integration decisions, taking charge of the specifications, and making estimates for tender calls.",
+                "- Train a team to ensure a smooth transition of a project to regular operations.",
+                "",
+                "Significant Projects:",
+                "Electronic Signature Business Tool",
+                "Technology: Cordova, JS/HTML, C#",
+                "Roles: Developer, Deployment Manager",
+                "",
+                "Calculation Engine for Mutual Insurance/Providence",
+                "Technology: AngularJS, JAVA, NodeJS, SQL",
+                "Roles: Developer, Project Manager",
+                "",
+                "Middleware and API for ISV Clients",
+                "Technology: Node.js, Axios, Bash",
+                "Roles: Backend Developer",
+                "",
+                "Billing Manager and API for Electronic Signature",
+                "Technology: Docker, Portainer, SQL, JAVA, Spring, Angular, Bash",
+                "Roles: Full Stack Developer, Deployment Manager",
+                "",
+                "Legal Archiving Connector and Cloud Storage",
+                "Technology: JAVA, Spring, JPA, Retrofit",
+                "Roles: Backend Developer"
+              ]
             }
           },
           {
@@ -110,15 +138,6 @@
             "description": {
               "type": "text",
               "value": "Internship as web developer in Javascript(vanilla ES6) and PHP, introducing people to the world of informatics and education programming with Arduino and C/C++."
-            }
-          },
-          {
-            "date": "05/2016 - 09/2016",
-            "title": "Sales Assistant/Warehouse Operative",
-            "organizationName": "BHM DISTRIBUTION",
-            "description": {
-              "type": "text",
-              "value": "Inventory management, warehousing: pallet unloading, use of manual / electric pallet truck, customer support."
             }
           },
           {
