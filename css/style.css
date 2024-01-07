@@ -134,6 +134,6 @@ a{
   border-top: 2px solid black;
 }
 
-section.array.description:has(br.emptyline) {
+section.array.description.hasEmptyLine {
   margin: -13px 0 -5px;
 }

@@ -36,13 +36,13 @@
       <section id="{{backgroundExperiences.style.IdName}}" class="backgroundExperiences"
         ng-repeat="backgroundExperiences in currentUser.moreInformation.backgroundExperiences">
         <h4 class="container title orange">{{backgroundExperiences.title}}</h4>
-        <section class="{{backgroundExperiences.style.classesName}} backgroundExperience"
+        <section class="{{backgroundExperiences.style.classesName}} backgroundExperience {{getExperiencesClass(experience)}}"
           ng-repeat="experience in backgroundExperiences.array">
           <h5 class="title">{{experience.date + " " + experience.organizationName}}</h5>
           <h5 class="title">{{experience.title}}</h5>
           <p ng-if="experience.description.type === 'text'">{{experience.description.value}}</p>
           <section ng-if="experience.description.type === 'array'">
-            <section ng-repeat="item in experience.description.value track by $index" class="array description">
+            <section ng-repeat="item in experience.description.value track by $index" class="array description {{item.length === 0 ? 'hasEmptyLine': ''}}">
               <p ng-if="item.length > 0">{{ item }}</p>
               <br ng-if="item.length === 0" class="emptyline">
             </section>
@@ -58,6 +58,8 @@
   <script src="./js/lib/angular/angular-messages.js"></script>
   <script src="./js/lib/angular/angular-material/angular-material.js"></script>
   <script src="./js/lib/html-docx-js/html-docx.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.2/FileSaver.min.js"></script>
+
   <script src="./js/app.js" charset="utf-8"></script>
 </body>
 

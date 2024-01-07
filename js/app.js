@@ -21,6 +21,17 @@ CVApp.controller("CVController", function ($scope, $http) {
     }
   }
 
+
+  $scope.getExperiencesClass = function (experience) {
+    let result = "";
+    if (experience.description && experience.description.type) {
+      result = experience.description.type;
+    }
+
+    return result;
+  }
+
+
   this.getJson = function () {
     if (this.currentLang) {
       var url = "./data/okba-cv1-" + this.currentLang.toUpperCase() + ".json";
