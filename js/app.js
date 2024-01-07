@@ -21,7 +21,6 @@ CVApp.controller("CVController", function ($scope, $http) {
     }
   }
 
-
   $scope.getExperiencesClass = function (experience) {
     let result = "";
     if (experience.description && experience.description.type) {
@@ -30,7 +29,6 @@ CVApp.controller("CVController", function ($scope, $http) {
 
     return result;
   }
-
 
   this.getJson = function () {
     if (this.currentLang) {
@@ -53,7 +51,6 @@ CVApp.controller("CVController", function ($scope, $http) {
       getDefaultCv();
     }
   }
-
 
   function getSearchQueryParam() {
     var queryString = window.location.search;
