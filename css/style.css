@@ -133,6 +133,7 @@ a{
   display: flex;
   flex-direction: column;
   border-top: 2px solid black;
+  font-size: 14px;
 }
 
 section.array.description.hasEmptyLine {
@@ -140,5 +141,5 @@ section.array.description.hasEmptyLine {
 }
 
 .summary-text {
-  font-size: 10px;
+  font-size: 12px;
 }
