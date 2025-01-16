@@ -31,7 +31,7 @@
       <section id="summary">
         <p id="UserName" class="orange">{{currentUser.firstName + " " + currentUser.lastName}}</p>
         <h4 class="title orange">{{currentUser.moreInformation.summary.title}}</h4>
-        <p>{{currentUser.moreInformation.summary.text}}</p>
+        <p class="summary-text">{{currentUser.moreInformation.summary.text}}</p>
       </section>
       <section id="{{backgroundExperiences.style.IdName}}" class="backgroundExperiences"
         ng-repeat="backgroundExperiences in currentUser.moreInformation.backgroundExperiences">
