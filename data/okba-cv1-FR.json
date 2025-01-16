@@ -46,15 +46,15 @@
           "classesName": "skill"
         },
         "array": [
-          "HTML5",
           "Javascript (Vanilla ES6+, AngularJS)",
-          "TypeScript (Angular 12)",
-          "NodeJS (expressjs, axios, swagger)",
-          "Lua",
-          "C/C++",
+          "TypeScript (Angular 14, Vue.js, Svelte)",
+          "Node.js",
           "SQL (PostgreSQL)",
+          "JAVA (vanilla, Spring)",
           "C#",
-          "JAVA (vanilla, Spring)"
+          "C/C++",
+          "Lua",
+          "python"
         ]
       },
       "languages": {
@@ -78,13 +78,14 @@
           "Jeux vidéo",
           "Informatique embarqué(arduino, STM32 nucléo)",
           "Aeronautiques",
-          "3D (openGL C/C++, unity 3D, unreal Engine 4, blender)"
+          "3D (openGL C/C++, blender)",
+          "AI integrations"
         ]
       }
     },
     "summary": {
       "title": "Développeur",
-      "text": "Je suis un développeur front/back et API/SDK travaillant principalement en Node. Js, HTML5, C#, JAVA, je fais aussi principalement du C./C++ sur mon temps libre et lorsque je fais du portage de jeux vidéo en freelance"
+      "text": "Je suis un développeur full-stack avec forte tendance back-end travaillant principalement en Node.js ou Java. Pendant mon temps libre, je travaille sur un jeu vidéo et j'explore les pipelines d'intégration pour IA ainsi que les nouvelles technologies."
     },
     "backgroundExperiences": {
       "workExperiences": {
@@ -114,11 +115,11 @@
                 "Rôles : Développeur, Gestion du déploiement",
                 "",
                 "Moteur de Calcul pour Mutuelle/Prévoyance",
-                "Technologie : AngularJS, JAVA, NodeJS, SQL",
+                "Technologie : AngularJS, JAVA, Node.js, SQL",
                 "Rôles : Développeur, Chef de projet",
                 "",
                 "Middleware et API pour Clients ISV",
-                "Technologie : NodeJs, Axios, Bash",
+                "Technologie : NodeJs, Axios, Bash, Docker",
                 "Rôles : Développeur Backend",
                 "",
                 "Gestionnaire de Facturation et API pour Signature Électronique",

@@ -46,15 +46,15 @@
           "classesName": "skill"
         },
         "array": [
-          "HTML5",
           "Javascript (Vanilla ES6+, AngularJS)",
-          "TypeScript (Angular 12)",
-          "NodeJS (expressjs, axios, swagger)",
-          "Lua",
-          "C/C++",
+          "TypeScript (Angular 14, Vue.js, Svelte)",
+          "Node.js",
           "SQL (PostgreSQL)",
+          "JAVA (vanilla, Spring)",
           "C#",
-          "JAVA (vanilla, Spring)"
+          "C/C++",
+          "Lua",
+          "python"
         ]
       },
       "languages": {
@@ -78,13 +78,14 @@
           "Video games",
           "embedded system(arduino, STM32)",
           "Aeronautics",
-          "3D (openGL C/C++, unity 3D, unreal Engine 4, blender)"
+          "3D (openGL C/C++, blender)",
+          "AI integrations"
         ]
       }
     },
     "summary": {
       "title": "Developer",
-      "text": "I am a full stack developer working either on front/back or API/SDK project, mainly focused on Node.Js, HTML5, C#, JAVA, I'm also programing in C/C++ during my free time as to when I'm working as a freelance as a game porting developer."
+      "text": "I am a full-stack developer with a strong back-end focus, primarily working with Node.js or Java. In my free time, I work on a video game and explore integration pipelines for AI as well as emerging technologies."
     },
     "backgroundExperiences": {
       "workExperiences": {
@@ -104,7 +105,7 @@
                 "During my journey, I have been able to:",
                 "- Design and implement business tools that facilitate the creation of forms, optimize formatting, and manage electronic signature dispatch.",
                 "- Take over and enhance a mobile/desktop application project by adding new features, correcting bugs, and ensuring its deployment on the Microsoft Store.",
-                "- Develop a business tool for a mutual insurance/providence service, including a calculation engine for quotes and the integration of an electronic signature system.",
+                "- Develop a business tool for a health care/contingency service, including a calculation engine for quotes and the integration of an electronic signature system.",
                 "- Serve as a project manager, guiding integration decisions, taking charge of the specifications, and making estimates for tender calls.",
                 "- Train a team to ensure a smooth transition of a project to regular operations.",
                 "",
@@ -113,12 +114,12 @@
                 "Technology: Cordova, JS/HTML, C#",
                 "Roles: Developer, Deployment Manager",
                 "",
-                "Calculation Engine for Mutual Insurance/Providence",
-                "Technology: AngularJS, JAVA, NodeJS, SQL",
+                "Compute Engine for a health care/contingency service",
+                "Technology: AngularJS, JAVA, Node.js, SQL",
                 "Roles: Developer, Project Manager",
                 "",
                 "Middleware and API for ISV Clients",
-                "Technology: Node.js, Axios, Bash",
+                "Technology: Node.js, Axios, Bash, Docker",
                 "Roles: Backend Developer",
                 "",
                 "Billing Manager and API for Electronic Signature",
