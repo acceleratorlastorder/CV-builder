@@ -109,7 +109,7 @@ a{
 }
 
 .backgroundExperience p {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 /*
@@ -137,8 +137,4 @@ a{
 
 section.array.description.hasEmptyLine {
   margin: -13px 0 -5px;
-}
-
-.summary-text {
-  font-size: 12px;
 }
