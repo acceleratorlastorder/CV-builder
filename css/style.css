@@ -109,7 +109,7 @@ a{
 }
 
 .backgroundExperience p {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 /*
@@ -133,7 +133,6 @@ a{
   display: flex;
   flex-direction: column;
   border-top: 2px solid black;
-  font-size: 14px;
 }
 
 section.array.description.hasEmptyLine {
